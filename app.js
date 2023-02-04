@@ -27,7 +27,7 @@ function checkAge(name, age) {
 
 // arrow notation^: const checkAge = (name, age) => {
 checkAge("Ben", 12);
-checkAge("Seth", 16)
+checkAge("Seth", 16);
 checkAge("Cameron", 21);
 
 
@@ -70,7 +70,7 @@ function checkQuadrant(x,y) {
     if (a == b && b == c) {
         return `Equilateral`;
     } else if (a == b || b == c || a == c) {
-        return `Isosceles` ;
+        return `Isosceles`;
     } else {
         return `Scalene`;
     }
